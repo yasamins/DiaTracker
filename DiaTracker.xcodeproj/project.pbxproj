@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADEB39DE1E327E2B007E69F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB39DD1E327E2B007E69F2 /* AppDelegate.swift */; };
+		ADEB39E01E327E2B007E69F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB39DF1E327E2B007E69F2 /* ViewController.swift */; };
+		ADEB39E31E327E2B007E69F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEB39E11E327E2B007E69F2 /* Main.storyboard */; };
+		ADEB39E61E327E2B007E69F2 /* DiaTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADEB39E41E327E2B007E69F2 /* DiaTracker.xcdatamodeld */; };
+		ADEB39E81E327E2B007E69F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEB39E71E327E2B007E69F2 /* Assets.xcassets */; };
+		ADEB39EB1E327E2B007E69F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEB39E91E327E2B007E69F2 /* LaunchScreen.storyboard */; };
+		ADEB39F61E327E2B007E69F2 /* DiaTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB39F51E327E2B007E69F2 /* DiaTrackerTests.swift */; };
+		ADEB3A011E327E2C007E69F2 /* DiaTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB3A001E327E2B007E69F2 /* DiaTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADEB39F21E327E2B007E69F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEB39D21E327E2B007E69F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEB39D91E327E2B007E69F2;
+			remoteInfo = DiaTracker;
+		};
+		ADEB39FD1E327E2B007E69F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEB39D21E327E2B007E69F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEB39D91E327E2B007E69F2;
+			remoteInfo = DiaTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADEB39DA1E327E2B007E69F2 /* DiaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEB39DD1E327E2B007E69F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADEB39DF1E327E2B007E69F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADEB39E21E327E2B007E69F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADEB39E51E327E2B007E69F2 /* DiaTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiaTracker.xcdatamodel; sourceTree = "<group>"; };
+		ADEB39E71E327E2B007E69F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADEB39EA1E327E2B007E69F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADEB39EC1E327E2B007E69F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEB39F11E327E2B007E69F2 /* DiaTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEB39F51E327E2B007E69F2 /* DiaTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaTrackerTests.swift; sourceTree = "<group>"; };
+		ADEB39F71E327E2B007E69F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEB39FC1E327E2B007E69F2 /* DiaTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEB3A001E327E2B007E69F2 /* DiaTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaTrackerUITests.swift; sourceTree = "<group>"; };
+		ADEB3A021E327E2C007E69F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADEB39D71E327E2B007E69F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB39EE1E327E2B007E69F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB39F91E327E2B007E69F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADEB39D11E327E2B007E69F2 = {
+			isa = PBXGroup;
+			children = (
+				ADEB39DC1E327E2B007E69F2 /* DiaTracker */,
+				ADEB39F41E327E2B007E69F2 /* DiaTrackerTests */,
+				ADEB39FF1E327E2B007E69F2 /* DiaTrackerUITests */,
+				ADEB39DB1E327E2B007E69F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEB39DB1E327E2B007E69F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB39DA1E327E2B007E69F2 /* DiaTracker.app */,
+				ADEB39F11E327E2B007E69F2 /* DiaTrackerTests.xctest */,
+				ADEB39FC1E327E2B007E69F2 /* DiaTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEB39DC1E327E2B007E69F2 /* DiaTracker */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB39DD1E327E2B007E69F2 /* AppDelegate.swift */,
+				ADEB39DF1E327E2B007E69F2 /* ViewController.swift */,
+				ADEB39E11E327E2B007E69F2 /* Main.storyboard */,
+				ADEB39E71E327E2B007E69F2 /* Assets.xcassets */,
+				ADEB39E91E327E2B007E69F2 /* LaunchScreen.storyboard */,
+				ADEB39EC1E327E2B007E69F2 /* Info.plist */,
+				ADEB39E41E327E2B007E69F2 /* DiaTracker.xcdatamodeld */,
+			);
+			path = DiaTracker;
+			sourceTree = "<group>";
+		};
+		ADEB39F41E327E2B007E69F2 /* DiaTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB39F51E327E2B007E69F2 /* DiaTrackerTests.swift */,
+				ADEB39F71E327E2B007E69F2 /* Info.plist */,
+			);
+			path = DiaTrackerTests;
+			sourceTree = "<group>";
+		};
+		ADEB39FF1E327E2B007E69F2 /* DiaTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEB3A001E327E2B007E69F2 /* DiaTrackerUITests.swift */,
+				ADEB3A021E327E2C007E69F2 /* Info.plist */,
+			);
+			path = DiaTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADEB39D91E327E2B007E69F2 /* DiaTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEB3A051E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTracker" */;
+			buildPhases = (
+				ADEB39D61E327E2B007E69F2 /* Sources */,
+				ADEB39D71E327E2B007E69F2 /* Frameworks */,
+				ADEB39D81E327E2B007E69F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiaTracker;
+			productName = DiaTracker;
+			productReference = ADEB39DA1E327E2B007E69F2 /* DiaTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADEB39F01E327E2B007E69F2 /* DiaTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEB3A081E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTrackerTests" */;
+			buildPhases = (
+				ADEB39ED1E327E2B007E69F2 /* Sources */,
+				ADEB39EE1E327E2B007E69F2 /* Frameworks */,
+				ADEB39EF1E327E2B007E69F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEB39F31E327E2B007E69F2 /* PBXTargetDependency */,
+			);
+			name = DiaTrackerTests;
+			productName = DiaTrackerTests;
+			productReference = ADEB39F11E327E2B007E69F2 /* DiaTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADEB39FB1E327E2B007E69F2 /* DiaTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEB3A0B1E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTrackerUITests" */;
+			buildPhases = (
+				ADEB39F81E327E2B007E69F2 /* Sources */,
+				ADEB39F91E327E2B007E69F2 /* Frameworks */,
+				ADEB39FA1E327E2B007E69F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEB39FE1E327E2B007E69F2 /* PBXTargetDependency */,
+			);
+			name = DiaTrackerUITests;
+			productName = DiaTrackerUITests;
+			productReference = ADEB39FC1E327E2B007E69F2 /* DiaTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEB39D21E327E2B007E69F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yasamin;
+				TargetAttributes = {
+					ADEB39D91E327E2B007E69F2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					ADEB39F01E327E2B007E69F2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADEB39D91E327E2B007E69F2;
+					};
+					ADEB39FB1E327E2B007E69F2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADEB39D91E327E2B007E69F2;
+					};
+				};
+			};
+			buildConfigurationList = ADEB39D51E327E2B007E69F2 /* Build configuration list for PBXProject "DiaTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADEB39D11E327E2B007E69F2;
+			productRefGroup = ADEB39DB1E327E2B007E69F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEB39D91E327E2B007E69F2 /* DiaTracker */,
+				ADEB39F01E327E2B007E69F2 /* DiaTrackerTests */,
+				ADEB39FB1E327E2B007E69F2 /* DiaTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEB39D81E327E2B007E69F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB39EB1E327E2B007E69F2 /* LaunchScreen.storyboard in Resources */,
+				ADEB39E81E327E2B007E69F2 /* Assets.xcassets in Resources */,
+				ADEB39E31E327E2B007E69F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB39EF1E327E2B007E69F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB39FA1E327E2B007E69F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADEB39D61E327E2B007E69F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB39E01E327E2B007E69F2 /* ViewController.swift in Sources */,
+				ADEB39E61E327E2B007E69F2 /* DiaTracker.xcdatamodeld in Sources */,
+				ADEB39DE1E327E2B007E69F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB39ED1E327E2B007E69F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB39F61E327E2B007E69F2 /* DiaTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEB39F81E327E2B007E69F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB3A011E327E2C007E69F2 /* DiaTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADEB39F31E327E2B007E69F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEB39D91E327E2B007E69F2 /* DiaTracker */;
+			targetProxy = ADEB39F21E327E2B007E69F2 /* PBXContainerItemProxy */;
+		};
+		ADEB39FE1E327E2B007E69F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEB39D91E327E2B007E69F2 /* DiaTracker */;
+			targetProxy = ADEB39FD1E327E2B007E69F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADEB39E11E327E2B007E69F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEB39E21E327E2B007E69F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADEB39E91E327E2B007E69F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEB39EA1E327E2B007E69F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADEB3A031E327E2C007E69F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADEB3A041E327E2C007E69F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEB3A061E327E2C007E69F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiaTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.DiaTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ADEB3A071E327E2C007E69F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiaTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.DiaTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ADEB3A091E327E2C007E69F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiaTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.DiaTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiaTracker.app/DiaTracker";
+			};
+			name = Debug;
+		};
+		ADEB3A0A1E327E2C007E69F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiaTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.DiaTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiaTracker.app/DiaTracker";
+			};
+			name = Release;
+		};
+		ADEB3A0C1E327E2C007E69F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DiaTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.DiaTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DiaTracker;
+			};
+			name = Debug;
+		};
+		ADEB3A0D1E327E2C007E69F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DiaTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = metropolia.DiaTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DiaTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADEB39D51E327E2B007E69F2 /* Build configuration list for PBXProject "DiaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB3A031E327E2C007E69F2 /* Debug */,
+				ADEB3A041E327E2C007E69F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEB3A051E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB3A061E327E2C007E69F2 /* Debug */,
+				ADEB3A071E327E2C007E69F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADEB3A081E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB3A091E327E2C007E69F2 /* Debug */,
+				ADEB3A0A1E327E2C007E69F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADEB3A0B1E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEB3A0C1E327E2C007E69F2 /* Debug */,
+				ADEB3A0D1E327E2C007E69F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADEB39E41E327E2B007E69F2 /* DiaTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADEB39E51E327E2B007E69F2 /* DiaTracker.xcdatamodel */,
+			);
+			currentVersion = ADEB39E51E327E2B007E69F2 /* DiaTracker.xcdatamodel */;
+			path = DiaTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADEB39D21E327E2B007E69F2 /* Project object */;
+}
