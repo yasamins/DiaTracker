@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DBEF5FEE7398E5C64F0CD9C /* libPods-DiaTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE6622E03A4DF478CA6E677 /* libPods-DiaTracker.a */; };
+		AD40D6B31E3E018500075AAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD40D6B21E3E018500075AAC /* GoogleService-Info.plist */; };
+		AD8BF9741E3A42EE00A8A440 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD8BF9731E3A42EE00A8A440 /* GoogleService-Info.plist */; };
 		ADEB39DE1E327E2B007E69F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB39DD1E327E2B007E69F2 /* AppDelegate.swift */; };
 		ADEB39E01E327E2B007E69F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB39DF1E327E2B007E69F2 /* ViewController.swift */; };
 		ADEB39E31E327E2B007E69F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEB39E11E327E2B007E69F2 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 		ADEB39EB1E327E2B007E69F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEB39E91E327E2B007E69F2 /* LaunchScreen.storyboard */; };
 		ADEB39F61E327E2B007E69F2 /* DiaTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB39F51E327E2B007E69F2 /* DiaTrackerTests.swift */; };
 		ADEB3A011E327E2C007E69F2 /* DiaTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB3A001E327E2B007E69F2 /* DiaTrackerUITests.swift */; };
+		ADEB3A0F1E33A1FC007E69F2 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB3A0E1E33A1FC007E69F2 /* RegisterPageViewController.swift */; };
+		D048EF960E43DAE7111E3421 /* libPods-DiaTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF1A8EEC81701837C73B9D7 /* libPods-DiaTrackerTests.a */; };
+		F79709F71610D8AD25EF7654 /* libPods-DiaTrackerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 395DA9EE37F7367977CBBCFC /* libPods-DiaTrackerUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D637AAEE90F19E834743115 /* Pods-DiaTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaTrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiaTrackerUITests/Pods-DiaTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		14EE07C489E4B61114B7908C /* Pods-DiaTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaTrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiaTrackerUITests/Pods-DiaTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		395DA9EE37F7367977CBBCFC /* libPods-DiaTrackerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiaTrackerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BA08188B40E4AB643F036E /* Pods-DiaTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiaTrackerTests/Pods-DiaTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C2FD5B0952186BCAEE4488F /* Pods-DiaTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiaTrackerTests/Pods-DiaTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9EE6622E03A4DF478CA6E677 /* libPods-DiaTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiaTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD40D6B21E3E018500075AAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD8BF9731E3A42EE00A8A440 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADEB39DA1E327E2B007E69F2 /* DiaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEB39DD1E327E2B007E69F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADEB39DF1E327E2B007E69F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,10 @@
 		ADEB39FC1E327E2B007E69F2 /* DiaTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEB3A001E327E2B007E69F2 /* DiaTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaTrackerUITests.swift; sourceTree = "<group>"; };
 		ADEB3A021E327E2C007E69F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEB3A0E1E33A1FC007E69F2 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		AEF1A8EEC81701837C73B9D7 /* libPods-DiaTrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiaTrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D399C8F08EF3FBE9D94783F0 /* Pods-DiaTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiaTracker/Pods-DiaTracker.release.xcconfig"; sourceTree = "<group>"; };
+		EA1D20C21E23E30C938D75AD /* Pods-DiaTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiaTracker/Pods-DiaTracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBEF5FEE7398E5C64F0CD9C /* libPods-DiaTracker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D048EF960E43DAE7111E3421 /* libPods-DiaTrackerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79709F71610D8AD25EF7654 /* libPods-DiaTrackerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C7AD3C55717AC4D354C52B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA1D20C21E23E30C938D75AD /* Pods-DiaTracker.debug.xcconfig */,
+				D399C8F08EF3FBE9D94783F0 /* Pods-DiaTracker.release.xcconfig */,
+				87BA08188B40E4AB643F036E /* Pods-DiaTrackerTests.debug.xcconfig */,
+				9C2FD5B0952186BCAEE4488F /* Pods-DiaTrackerTests.release.xcconfig */,
+				0D637AAEE90F19E834743115 /* Pods-DiaTrackerUITests.debug.xcconfig */,
+				14EE07C489E4B61114B7908C /* Pods-DiaTrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ADEB39D11E327E2B007E69F2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +117,8 @@
 				ADEB39F41E327E2B007E69F2 /* DiaTrackerTests */,
 				ADEB39FF1E327E2B007E69F2 /* DiaTrackerUITests */,
 				ADEB39DB1E327E2B007E69F2 /* Products */,
+				27C7AD3C55717AC4D354C52B /* Pods */,
+				E8A26B641A3F5F53E7A8906C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +141,9 @@
 				ADEB39E71E327E2B007E69F2 /* Assets.xcassets */,
 				ADEB39E91E327E2B007E69F2 /* LaunchScreen.storyboard */,
 				ADEB39EC1E327E2B007E69F2 /* Info.plist */,
+				AD40D6B21E3E018500075AAC /* GoogleService-Info.plist */,
 				ADEB39E41E327E2B007E69F2 /* DiaTracker.xcdatamodeld */,
+				ADEB3A0E1E33A1FC007E69F2 /* RegisterPageViewController.swift */,
 			);
 			path = DiaTracker;
 			sourceTree = "<group>";
@@ -115,6 +153,7 @@
 			children = (
 				ADEB39F51E327E2B007E69F2 /* DiaTrackerTests.swift */,
 				ADEB39F71E327E2B007E69F2 /* Info.plist */,
+				AD8BF9731E3A42EE00A8A440 /* GoogleService-Info.plist */,
 			);
 			path = DiaTrackerTests;
 			sourceTree = "<group>";
@@ -128,6 +167,16 @@
 			path = DiaTrackerUITests;
 			sourceTree = "<group>";
 		};
+		E8A26B641A3F5F53E7A8906C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EE6622E03A4DF478CA6E677 /* libPods-DiaTracker.a */,
+				AEF1A8EEC81701837C73B9D7 /* libPods-DiaTrackerTests.a */,
+				395DA9EE37F7367977CBBCFC /* libPods-DiaTrackerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEB3A051E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTracker" */;
 			buildPhases = (
+				DE6434FE9E079F32B66823D3 /* [CP] Check Pods Manifest.lock */,
 				ADEB39D61E327E2B007E69F2 /* Sources */,
 				ADEB39D71E327E2B007E69F2 /* Frameworks */,
 				ADEB39D81E327E2B007E69F2 /* Resources */,
+				7588365C5EDB387DF94A9496 /* [CP] Embed Pods Frameworks */,
+				A3162755DC25296FD459C690 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEB3A081E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTrackerTests" */;
 			buildPhases = (
+				5DB5F00B4563D4959BEF0C45 /* [CP] Check Pods Manifest.lock */,
 				ADEB39ED1E327E2B007E69F2 /* Sources */,
 				ADEB39EE1E327E2B007E69F2 /* Frameworks */,
 				ADEB39EF1E327E2B007E69F2 /* Resources */,
+				D2D32085FD3546EF00F66537 /* [CP] Embed Pods Frameworks */,
+				0FF37AB471AD2CEDFC5D6DF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEB3A0B1E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTrackerUITests" */;
 			buildPhases = (
+				4B73C4B4CA8E43EDD8CBA1CA /* [CP] Check Pods Manifest.lock */,
 				ADEB39F81E327E2B007E69F2 /* Sources */,
 				ADEB39F91E327E2B007E69F2 /* Frameworks */,
 				ADEB39FA1E327E2B007E69F2 /* Resources */,
+				8FEDC3F9A8B7B8E188737AB6 /* [CP] Embed Pods Frameworks */,
+				1D8CE1D7F335C26973AEB0FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +254,7 @@
 				TargetAttributes = {
 					ADEB39D91E327E2B007E69F2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 86H8YJR5QC;
 						ProvisioningStyle = Automatic;
 					};
 					ADEB39F01E327E2B007E69F2 = {
@@ -236,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADEB39EB1E327E2B007E69F2 /* LaunchScreen.storyboard in Resources */,
+				AD40D6B31E3E018500075AAC /* GoogleService-Info.plist in Resources */,
 				ADEB39E81E327E2B007E69F2 /* Assets.xcassets in Resources */,
 				ADEB39E31E327E2B007E69F2 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8BF9741E3A42EE00A8A440 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,11 +318,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FF37AB471AD2CEDFC5D6DF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaTrackerTests/Pods-DiaTrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D8CE1D7F335C26973AEB0FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaTrackerUITests/Pods-DiaTrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B73C4B4CA8E43EDD8CBA1CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB5F00B4563D4959BEF0C45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7588365C5EDB387DF94A9496 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaTracker/Pods-DiaTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FEDC3F9A8B7B8E188737AB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaTrackerUITests/Pods-DiaTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3162755DC25296FD459C690 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaTracker/Pods-DiaTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D32085FD3546EF00F66537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaTrackerTests/Pods-DiaTrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6434FE9E079F32B66823D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADEB39D61E327E2B007E69F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEB3A0F1E33A1FC007E69F2 /* RegisterPageViewController.swift in Sources */,
 				ADEB39E01E327E2B007E69F2 /* ViewController.swift in Sources */,
 				ADEB39E61E327E2B007E69F2 /* DiaTracker.xcdatamodeld in Sources */,
 				ADEB39DE1E327E2B007E69F2 /* AppDelegate.swift in Sources */,
@@ -414,8 +614,10 @@
 		};
 		ADEB3A061E327E2C007E69F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1D20C21E23E30C938D75AD /* Pods-DiaTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86H8YJR5QC;
 				INFOPLIST_FILE = DiaTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = metropolia.DiaTracker;
@@ -426,8 +628,10 @@
 		};
 		ADEB3A071E327E2C007E69F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D399C8F08EF3FBE9D94783F0 /* Pods-DiaTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 86H8YJR5QC;
 				INFOPLIST_FILE = DiaTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = metropolia.DiaTracker;
@@ -438,6 +642,7 @@
 		};
 		ADEB3A091E327E2C007E69F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BA08188B40E4AB643F036E /* Pods-DiaTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +657,7 @@
 		};
 		ADEB3A0A1E327E2C007E69F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2FD5B0952186BCAEE4488F /* Pods-DiaTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +672,7 @@
 		};
 		ADEB3A0C1E327E2C007E69F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D637AAEE90F19E834743115 /* Pods-DiaTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DiaTrackerUITests/Info.plist;
@@ -479,6 +686,7 @@
 		};
 		ADEB3A0D1E327E2C007E69F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14EE07C489E4B61114B7908C /* Pods-DiaTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DiaTrackerUITests/Info.plist;
@@ -509,6 +717,7 @@
 				ADEB3A071E327E2C007E69F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADEB3A081E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +726,7 @@
 				ADEB3A0A1E327E2C007E69F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADEB3A0B1E327E2C007E69F2 /* Build configuration list for PBXNativeTarget "DiaTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +735,7 @@
 				ADEB3A0D1E327E2C007E69F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
