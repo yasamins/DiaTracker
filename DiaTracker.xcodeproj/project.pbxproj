@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0DBEF5FEE7398E5C64F0CD9C /* libPods-DiaTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE6622E03A4DF478CA6E677 /* libPods-DiaTracker.a */; };
 		AD40D6B31E3E018500075AAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD40D6B21E3E018500075AAC /* GoogleService-Info.plist */; };
+		AD40D6B51E3F46DD00075AAC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD40D6B41E3F46DD00075AAC /* AdSupport.framework */; };
 		AD8BF9741E3A42EE00A8A440 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD8BF9731E3A42EE00A8A440 /* GoogleService-Info.plist */; };
 		ADEB39DE1E327E2B007E69F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB39DD1E327E2B007E69F2 /* AppDelegate.swift */; };
 		ADEB39E01E327E2B007E69F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB39DF1E327E2B007E69F2 /* ViewController.swift */; };
@@ -18,7 +19,6 @@
 		ADEB39EB1E327E2B007E69F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEB39E91E327E2B007E69F2 /* LaunchScreen.storyboard */; };
 		ADEB39F61E327E2B007E69F2 /* DiaTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB39F51E327E2B007E69F2 /* DiaTrackerTests.swift */; };
 		ADEB3A011E327E2C007E69F2 /* DiaTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB3A001E327E2B007E69F2 /* DiaTrackerUITests.swift */; };
-		ADEB3A0F1E33A1FC007E69F2 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB3A0E1E33A1FC007E69F2 /* RegisterPageViewController.swift */; };
 		D048EF960E43DAE7111E3421 /* libPods-DiaTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF1A8EEC81701837C73B9D7 /* libPods-DiaTrackerTests.a */; };
 		F79709F71610D8AD25EF7654 /* libPods-DiaTrackerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 395DA9EE37F7367977CBBCFC /* libPods-DiaTrackerUITests.a */; };
 /* End PBXBuildFile section */
@@ -48,6 +48,7 @@
 		9C2FD5B0952186BCAEE4488F /* Pods-DiaTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiaTrackerTests/Pods-DiaTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		9EE6622E03A4DF478CA6E677 /* libPods-DiaTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiaTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD40D6B21E3E018500075AAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD40D6B41E3F46DD00075AAC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		AD8BF9731E3A42EE00A8A440 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADEB39DA1E327E2B007E69F2 /* DiaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEB39DD1E327E2B007E69F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		ADEB39FC1E327E2B007E69F2 /* DiaTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEB3A001E327E2B007E69F2 /* DiaTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaTrackerUITests.swift; sourceTree = "<group>"; };
 		ADEB3A021E327E2C007E69F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADEB3A0E1E33A1FC007E69F2 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		AEF1A8EEC81701837C73B9D7 /* libPods-DiaTrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiaTrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D399C8F08EF3FBE9D94783F0 /* Pods-DiaTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiaTracker/Pods-DiaTracker.release.xcconfig"; sourceTree = "<group>"; };
 		EA1D20C21E23E30C938D75AD /* Pods-DiaTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiaTracker/Pods-DiaTracker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD40D6B51E3F46DD00075AAC /* AdSupport.framework in Frameworks */,
 				0DBEF5FEE7398E5C64F0CD9C /* libPods-DiaTracker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,7 +144,6 @@
 				ADEB39EC1E327E2B007E69F2 /* Info.plist */,
 				AD40D6B21E3E018500075AAC /* GoogleService-Info.plist */,
 				ADEB39E41E327E2B007E69F2 /* DiaTracker.xcdatamodeld */,
-				ADEB3A0E1E33A1FC007E69F2 /* RegisterPageViewController.swift */,
 			);
 			path = DiaTracker;
 			sourceTree = "<group>";
@@ -170,6 +170,7 @@
 		E8A26B641A3F5F53E7A8906C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD40D6B41E3F46DD00075AAC /* AdSupport.framework */,
 				9EE6622E03A4DF478CA6E677 /* libPods-DiaTracker.a */,
 				AEF1A8EEC81701837C73B9D7 /* libPods-DiaTrackerTests.a */,
 				395DA9EE37F7367977CBBCFC /* libPods-DiaTrackerUITests.a */,
@@ -461,7 +462,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEB3A0F1E33A1FC007E69F2 /* RegisterPageViewController.swift in Sources */,
 				ADEB39E01E327E2B007E69F2 /* ViewController.swift in Sources */,
 				ADEB39E61E327E2B007E69F2 /* DiaTracker.xcdatamodeld in Sources */,
 				ADEB39DE1E327E2B007E69F2 /* AppDelegate.swift in Sources */,

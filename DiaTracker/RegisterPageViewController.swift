@@ -11,6 +11,8 @@ import Firebase
 
 class RegisterPageViewController: UIViewController {
     
+    @IBOutlet weak var Label1: UILabel!
+    
     @IBOutlet weak var UsernameLabel: UILabel!
     
     @IBOutlet weak var UserEmail: UITextField!
@@ -30,8 +32,9 @@ class RegisterPageViewController: UIViewController {
             
         }
         else {
-            self.LogoutButton.alpha = 0
-            self.UsernameLabel.text = ""
+//            self.LogoutButton.alpha = 0.5
+//            
+//            self.UsernameLabel.text = ""
         }
        
     }
@@ -53,10 +56,8 @@ class RegisterPageViewController: UIViewController {
     }
     
     @IBAction func LoginAction(_ sender: Any) {
-        let Email = UserEmail.text;
-        let Password = UserPassword.text;
         
-        if (Email == "" || Password == "") {
+        if (self.UserEmail.text == "" || self.UserPassword.text == "") {
             
             
             let alertController = UIAlertController(title: "Alert", message:"All fields are needed"
@@ -93,12 +94,9 @@ class RegisterPageViewController: UIViewController {
     
     @IBAction func RegisterButtonTapped(_ sender: Any) {
         
-        let Email = UserEmail.text;
-        let Password = UserPassword.text;
-        
         //check for empty fields
         
-        if (Email == "" || Password == "") {
+        if (self.UserEmail.text == "" || self.UserPassword.text == "") {
         
             
             let alertController = UIAlertController(title: "Alert", message:"All fields are needed"
@@ -131,11 +129,6 @@ class RegisterPageViewController: UIViewController {
                     self.present(alertController, animated: true, completion: nil)
                 }
                 
-                
-                
-                //store data
-        
-        //display alert message with confirmation
     })
 }
         
